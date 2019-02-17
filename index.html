@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cat Clicker</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<ul id="cat-list"></ul>
+	<div id="cat">
+		<h2 id="cat-name"></h2>
+		<div id="cat-count"></div>
+		<img id="cat-img" src="" alt="cute cat">
+  </div>
+  <div id='admin'>
+    <button id='admin-button'>Admin</button>
+    <div id='admin-items' class='admin'>
+        <form action='/action_page.php'>
+          Name: <input type='text' id='admincat-name'><br>
+          URL: <input type='text' id='admincat-img'><br>
+          Clicks: <input type='text' id='admincat-count'><br>
+        </form>  
+        <button id='admin-save'>Save</button>
+        <button id='cancel'>Cancel</button>
+    </div>
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>
